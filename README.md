@@ -24,7 +24,7 @@ npm install gulp -g && npm install gulp --save-dev
 
 ## 安装babel
 
-我们需要安装`babel-core`及`babel-preset-es2015`来转换ES6代码：
+我们需要安装[babel-core](https://github.com/babel/babel/tree/master/packages/babel-core)及[babel-preset-es2015](https://github.com/babel/babel/tree/master/packages/babel-preset-es2015)来转换ES6代码：
 
 ```
 npm install babel-core babel-preset-es2015 --save-dev
@@ -90,4 +90,4 @@ gulp less
 
 ---
 
-[MIT License](./LICENSE).
+[MIT License](./LICENSE)
