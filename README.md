@@ -62,15 +62,15 @@ mv gulpfile.js gulpfile.babel.js
 import gulp from 'gulp';
 import less from 'gulp-less';
 
-const paths = {
+const PATHS = {
   less: 'less/',
   dest: 'build/'
 };
 
 gulp.task('less', () => {
-  gulp.src(`${paths.less}**/*.less`)
+  gulp.src(`${PATHS.less}**/*.less`)
     .pipe(less())
-    .pipe(gulp.dest(`${paths.dest}css/`));
+    .pipe(gulp.dest(`${PATHS.dest}css/`));
 });
 ```
 
