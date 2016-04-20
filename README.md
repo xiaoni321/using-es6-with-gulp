@@ -44,6 +44,16 @@ touch .babelrc
 }
 ```
 
+> 或者是不创建.babelrc，直接在package.json里面添加`babel`字段，如：
+> ```
+"babel": {
+  "presets": [
+    "es2015"
+  ]
+}
+> ```
+
+
 接下来就是使用ES6语法重写gulpfile了。
 
 ## 使用ES6语法重写gulpfile
